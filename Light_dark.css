@@ -43,6 +43,7 @@ p {
 
 .icons {
     width: 50px;
+    color:black;
     height: 50px;
     border-radius: 50%;
     background-color: #f4f4f4;
@@ -165,6 +166,9 @@ span {
 }
 body.dark .ome{
 	color: #f4f4f4 !important;
+}
+body.bg-light .reg{
+	color: #1f2029 !important;
 }
 body.bg-light span {
   color: #1f2029;
