@@ -15,6 +15,14 @@
     background: rgba(0, 0, 0, 0.8)
 } */
 
+.imgimp{
+  position: relative;
+  top:3px;
+  border-radius: 2px;
+   height:50px;
+    width:auto;/*maintain aspect ratio*/
+    max-height:45px;transform: scale(1.6);
+}
 .list-group-item-action{
 background-color: #c5dbf340 !important;
 }
@@ -285,3 +293,26 @@ body.dark .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
   
   }
+
+  @media only screen and (min-width: 775px) {
+  .vec {
+    position: relative;
+    top: 80px;
+    left: 60px;
+  }
+  .vec2 {
+    position: relative;
+    top:120px;
+
+  /* transform: scale(2.4) !important; */
+   }
+}
+
+
+  @media only screen and (max-width: 990px) {
+ .imgimp{
+  transform: scale(1.4) !important;
+
+ }
+
+ }
