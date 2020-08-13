@@ -15,10 +15,7 @@
     background: rgba(0, 0, 0, 0.8)
 } */
 
-.imgimp{
-  
-  transform: scale(1.6);
-}
+
 .list-group-item-action{
 background-color: #c5dbf340 !important;
 }
@@ -101,6 +98,10 @@ p {
   transition: all 200ms linear;
 }
 
+.imgimp{
+  
+  transform: scale(1.6);
+}
 /* span{
 	color:#1f2029 !important;
 } */
@@ -262,6 +263,14 @@ body.dark .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
    }
 }
 
+ @media only screen and (max-width: 990px) {
+ .imgimp{
+
+  transform: scale(1.4) !important;
+
+ }
+
+ }
 @media only screen and (max-width: 775px) {
 
   .vec1{
@@ -305,11 +314,4 @@ body.dark .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 
-  @media only screen and (max-width: 990px) {
- .imgimp{
-
-  transform: scale(1.4) !important;
-
- }
-
- }
+ 
